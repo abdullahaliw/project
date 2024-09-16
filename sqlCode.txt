@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS win;
+USE win;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    firstName CHAR(50),
+    lastName CHAR(50),
+    email CHAR(250)
+);
